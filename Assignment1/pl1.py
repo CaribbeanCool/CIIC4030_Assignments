@@ -95,26 +95,28 @@ def t_error(t):
 lexer = lex.lex()
 
 
-def lexerScannerTestFunc(fileDir):
-    """
-    Function to test a given `.txt` file using a lexical scanner
-
-    Params:
-        fileDir (str): The directory of the file to be tested
-    """
-    with open(fileDir, 'r') as f:
-        input_data = f.read()
+with open("Program_Test.txt", 'r') as testFile:
+    input_data = testFile.read()
     lexer.input(input_data)
-
     headers = ['Line', 'Token', 'Value']  # for format output
     print(f'{headers[0]:4} {headers[1]:15} {headers[2]}')
     print("-"*27)
-
     while True:
         token = lexer.token()
         if not token:
             break
         print(f'{token.lineno:4} {token.type:15} {token.value}')
 
+# def lexerScannerTestFunc(fileDir):
+#     """
+#     Function to test a given `.txt` file using a lexical scanner
 
-lexerScannerTestFunc('Assignment1/Program_Test.txt')
+#     Params:
+#         fileDir (str): The directory of the file to be tested
+#     """
+#     with open(fileDir, 'r') as f:
+#         input_data = f.read()
+#     lexer.input(input_data)
+
+
+# lexerScannerTestFunc('Assignment1/Program_Test.txt')
