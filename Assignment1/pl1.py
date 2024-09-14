@@ -62,7 +62,7 @@ def t_IDENTIFIER(t):
 
 # A function to match numbers
 def t_NUMBER(t):
-    r'\d+'
+    r'\d+' # same thing as [0-9]+
     t.value = int(t.value)
     return t
 
