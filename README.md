@@ -5,12 +5,12 @@ This repository contains the code for all three assignments related to PLY (Pyth
 ## Assignments Overview
 
 1. **Assignment 1: Lexical Analysis**
-    - Implement a lexical analyzer using `ply.lex`.
+    - Implement a lexical analyzer using `lex`.
     - Define tokens and their regular expressions.
     - Test the lexer with sample input.
 
-2. **Assignment 2: Syntax Analysis**
-    - Implement a syntax analyzer using `ply.yacc`.
+2. **Assignment 2: Recognizing a certain Context-Free Grammar**
+    - Implement a grammar analyzer using `yacc`.
     - Define grammar rules and actions.
     - Test the parser with sample input.
 
