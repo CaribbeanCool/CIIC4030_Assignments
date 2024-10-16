@@ -1,7 +1,7 @@
 import ply.yacc as yacc
 import ply.lex as lex
 
-# List of all token names
+# List of all token names + new ones (types)
 tokens = [
     'IDENTIFIER', 'NUMBER',
     'IF', 'ELSE', 'WHILE', 'LET', 'LOOP', 'FN', 'MUT', 'PUB', 'REF', 'IN',
@@ -30,6 +30,8 @@ t_MINUS = r'-'
 t_STAR = r'\*'
 t_SLASH = r'/'
 t_MOD = r'%'
+
+# New tokens
 t_INT = r'int'
 t_FLOAT = r'float'
 t_CHAR = r'char'
@@ -326,13 +328,17 @@ def print_parse_tree(tree, indent=0):
     :param indent: The indentation level
     """
     if isinstance(tree, tuple):
+        # Print the root of the parsing tree
         print('    ' * indent + str(tree[0]) + ':')
         for child in tree[1:]:
+            # Recursively print each child
             print_parse_tree(child, indent + 1)
     elif isinstance(tree, list):
+        # Print each item in the list
         for item in tree:
             print_parse_tree(item, indent)
     else:
+        # Print the leaf of the parsing tree
         print('    ' * indent + str(tree))
 
 
