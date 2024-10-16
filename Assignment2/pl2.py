@@ -1,7 +1,7 @@
 import ply.yacc as yacc
 import ply.lex as lex
 
-# List of all token names + new ones (types)
+# List of all token names + new `type` tokens
 tokens = [
     'IDENTIFIER', 'NUMBER',
     'IF', 'ELSE', 'WHILE', 'LET', 'LOOP', 'FN', 'MUT', 'PUB', 'REF', 'IN',
@@ -31,7 +31,7 @@ t_STAR = r'\*'
 t_SLASH = r'/'
 t_MOD = r'%'
 
-# New tokens
+# New type tokens
 t_INT = r'int'
 t_FLOAT = r'float'
 t_CHAR = r'char'
