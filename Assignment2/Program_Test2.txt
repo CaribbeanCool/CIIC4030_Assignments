@@ -1,0 +1,44 @@
+fn main() {
+    // Variable declarations
+    let a = 5;
+    let mut b = 10;
+    let ref c = 15;
+
+    // If-Else Statements
+    if (a < b) {
+        b = a + 2;
+    } else {
+        b = a - 1;
+    }
+
+    // Nested If-Else
+    if (a > 0) {
+        if (b > 0) {
+            b = b - 2;
+        }
+    } else {
+        a = a + 5;
+    }
+
+    // While loop
+    while (b > 0) {
+        b = b - 1;
+    }
+
+    // Action statements
+    write b;
+    where a;
+    loop b;
+    return b;
+}
+
+// Function call with parameters and return type
+fn add(x int, y int) int {
+    return x + y;
+}
+
+// Struct declaration
+struct Point {
+    let x = 0;
+    let y = 0;
+}
