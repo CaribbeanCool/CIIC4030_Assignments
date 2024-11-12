@@ -4,18 +4,23 @@ This repository contains the code for all three assignments related to PLY (Pyth
 
 ## Assignments Overview
 
-1. **Assignment 1: Lexical Analysis**
-    - Implement a lexical analyzer using `lex`.
-    - Define tokens and their regular expressions.
-    - Test the lexer with sample input.
+1. **Assignment 1: Lexical Analysis: 100/100**
 
-2. **Assignment 2: Recognizing a certain Context-Free Grammar**
-    - Implement a grammar analyzer using `yacc`.
-    - Define grammar rules and actions.
-    - Test the parser with sample input.
+   - Implement a lexical analyzer using `lex`.
+   - Define tokens and their regular expressions.
+   - Test the lexer with sample input.
 
-3. **Assignment 3: TODO**
-    - TODO
+2. **Assignment 2: Recognizing a certain Context-Free Grammar: 99/100**
+
+   - Implement a grammar analyzer using `yacc`.
+   - Define grammar rules and actions.
+   - Test the parser with sample input.
+
+3. **Assignment 3: Interpret expressions and execute statements**
+   - Setup Semantic Rules for Expressions and Statements
+   - Implement Variable Storage and Lookup
+   - Add Control Flow
+   - Add Function Definitions and Calls
 
 ## Requirements
 
@@ -25,23 +30,24 @@ This repository contains the code for all three assignments related to PLY (Pyth
 ## Installation
 
 1. Clone the repository:
-    ```sh
-    git clone https://github.com/yourusername/ciic4030-assignments.git
-    ```
+   ```sh
+   git clone https://github.com/yourusername/ciic4030-assignments.git
+   ```
 2. Navigate to the repository directory:
-    ```sh
-    cd ciic4030-assignments
-    ```
+   ```sh
+   cd ciic4030-assignments
+   ```
 3. Install the required libraries:
-    ```sh
-    pip install -r requirements.txt
-    ```
+   ```sh
+   pip install -r requirements.txt
+   ```
 
 ## Usage
 
 Each assignment is located in its respective directory. Navigate to the assignment directory and run the corresponding Python script.
 
 Example for Assignment 1:
+
 ```sh
 cd assignment1
 python pl1.py
