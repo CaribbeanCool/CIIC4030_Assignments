@@ -1,0 +1,8 @@
+fn main() {
+    let hola = 140;
+    let holo = 100;
+
+    if (hola > holo) {
+        hola = 40;
+    }
+}
