@@ -1,0 +1,14 @@
+fn main() {
+
+	// initializing a variable a
+	let variable1 = 5;
+
+	// A type can also be inferred from context.
+	let mut inferred = 12; 
+
+	if n < 0 {
+		inferred = n + 2;
+	} else if n > 0 {
+		inferred = n + 4;
+	}
+}
