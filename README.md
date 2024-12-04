@@ -16,7 +16,7 @@ This repository contains the code for all three assignments related to PLY (Pyth
    - Define grammar rules and actions.
    - Test the parser with sample input.
 
-3. **Assignment 3: Interpret expressions and execute statements**
+3. **Assignment 3: Interpret expressions and execute statements: 89/100**
    - Setup Semantic Rules for Expressions and Statements
    - Implement Variable Storage and Lookup
    - Add Control Flow
