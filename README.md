@@ -4,25 +4,25 @@ This repository contains the code for all three assignments related to PLY (Pyth
 
 ## Assignments Overview
 
-1. **Assignment 1: Lexical Analysis: 100/100**
+1. **Assignment 1: Lexical Analysis**
 
    - Implement a lexical analyzer using `lex`.
    - Define tokens and their regular expressions.
    - Test the lexer with sample input.
 
-2. **Assignment 2: Recognizing a certain Context-Free Grammar: 99/100**
+2. **Assignment 2: Recognizing a certain Context-Free Grammar**
 
    - Implement a grammar analyzer using `yacc`.
    - Define grammar rules and actions.
    - Test the parser with sample input.
 
-3. **Assignment 3: Interpret expressions and execute statements: 89/100**
+3. **Assignment 3: Interpret expressions and execute statements**
    - Setup Semantic Rules for Expressions and Statements
    - Implement Variable Storage and Lookup
    - Add Control Flow
    - Add Function Definitions and Calls
 
-4. **Assignment 4: Rust Lexer/Parser: 97/100**
+4. **Assignment 4: Rust Lexer/Parser**
    - Continue with the lexer/parser for the Rust programming language.
    - Implement the lexer and parser for the remaining Rust grammar rules.
 
