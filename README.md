@@ -22,6 +22,10 @@ This repository contains the code for all three assignments related to PLY (Pyth
    - Add Control Flow
    - Add Function Definitions and Calls
 
+4. **Assignment 4: Rust Lexer/Parser: 97/100**
+   - Continue with the lexer/parser for the Rust programming language.
+   - Implement the lexer and parser for the remaining Rust grammar rules.
+
 ## Requirements
 
 - Python 3.x
